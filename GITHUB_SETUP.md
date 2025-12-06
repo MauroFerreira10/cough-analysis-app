@@ -23,8 +23,8 @@ Copie e execute no terminal:
 ```bash
 cd /Users/mac/cough-analysis-app
 
-# Adiciona repositório remoto (SUBSTITUA SEU-USUARIO pelo seu username do GitHub)
-git remote add origin https://github.com/SEU-USUARIO/cough-analysis-app.git
+# Adiciona repositório remoto
+git remote add origin https://github.com/MauroFerreira10/cough-analysis-app.git
 
 # Renomeia branch para main (padrão moderno)
 git branch -M main
@@ -33,10 +33,9 @@ git branch -M main
 git push -u origin main
 ```
 
-**Exemplo:**
-Se seu usuário for `joaosilva`, o comando seria:
+**Exemplo real deste projeto:**
 ```bash
-git remote add origin https://github.com/joaosilva/cough-analysis-app.git
+git remote add origin https://github.com/MauroFerreira10/cough-analysis-app.git
 ```
 
 ---
@@ -50,8 +49,8 @@ git remote add origin https://github.com/joaosilva/cough-analysis-app.git
 3. Selecione: `/Users/mac/cough-analysis-app/Colab_Training.ipynb`
 4. No notebook, edite a primeira célula:
    ```python
-   # SUBSTITUA com sua URL
-   !git clone https://github.com/SEU-USUARIO/cough-analysis-app.git
+   # URL do projeto
+   !git clone https://github.com/MauroFerreira10/cough-analysis-app.git
    ```
 
 #### Opção B: Abrir Direto do GitHub
@@ -66,7 +65,7 @@ git remote add origin https://github.com/joaosilva/cough-analysis-app.git
 
 2. Depois, acesse diretamente:
    ```
-   https://colab.research.google.com/github/SEU-USUARIO/cough-analysis-app/blob/main/Colab_Training.ipynb
+   https://colab.research.google.com/github/MauroFerreira10/cough-analysis-app/blob/main/Colab_Training.ipynb
    ```
 
 ---
@@ -117,8 +116,8 @@ git remote -v
 
 Deve mostrar algo como:
 ```
-origin  https://github.com/SEU-USUARIO/cough-analysis-app.git (fetch)
-origin  https://github.com/SEU-USUARIO/cough-analysis-app.git (push)
+origin  https://github.com/MauroFerreira10/cough-analysis-app.git (fetch)
+origin  https://github.com/MauroFerreira10/cough-analysis-app.git (push)
 ```
 
 ---
@@ -144,7 +143,7 @@ cough-analysis-app/
 Será algo como:
 
 ```
-https://colab.research.google.com/github/SEU-USUARIO/cough-analysis-app/blob/main/Colab_Training.ipynb
+https://colab.research.google.com/github/MauroFerreira10/cough-analysis-app/blob/main/Colab_Training.ipynb
 ```
 
 **Compartilhe essa URL** com qualquer pessoa para que possa executar o projeto!
@@ -173,7 +172,7 @@ Marque conforme for fazendo:
 
 **Solução:** Use HTTPS em vez de SSH:
 ```bash
-git remote set-url origin https://github.com/SEU-USUARIO/cough-analysis-app.git
+git remote set-url origin https://github.com/MauroFerreira10/cough-analysis-app.git
 ```
 
 ### Erro: "Repository not found"
@@ -187,7 +186,7 @@ git remote set-url origin https://github.com/SEU-USUARIO/cough-analysis-app.git
 
 **Solução:** Verifique se executou a célula de clone:
 ```python
-!git clone https://github.com/SEU-USUARIO/cough-analysis-app.git
+!git clone https://github.com/MauroFerreira10/cough-analysis-app.git
 %cd cough-analysis-app
 ```
 
@@ -215,8 +214,8 @@ git config --global user.email "seu.email@example.com"
 # 2. No diretório do projeto
 cd /Users/mac/cough-analysis-app
 
-# 3. Adicione o repositório remoto (MUDE SEU-USUARIO)
-git remote add origin https://github.com/SEU-USUARIO/cough-analysis-app.git
+# 3. Adicione o repositório remoto
+git remote add origin https://github.com/MauroFerreira10/cough-analysis-app.git
 
 # 4. Envie para GitHub
 git branch -M main
@@ -236,12 +235,12 @@ Agora seu projeto está no GitHub e pode ser executado no Google Colab por qualq
 
 **URL para compartilhar:**
 ```
-https://github.com/SEU-USUARIO/cough-analysis-app
+https://github.com/MauroFerreira10/cough-analysis-app
 ```
 
 **URL do Colab:**
 ```
-https://colab.research.google.com/github/SEU-USUARIO/cough-analysis-app/blob/main/Colab_Training.ipynb
+https://colab.research.google.com/github/MauroFerreira10/cough-analysis-app/blob/main/Colab_Training.ipynb
 ```
 
 ---

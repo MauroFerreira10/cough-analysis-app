@@ -21,13 +21,13 @@
 
 ### Passo 2: Conectar e Fazer Push
 
-Copie e execute no terminal (SUBSTITUA `SEU-USUARIO`):
+Copie e execute no terminal:
 
 ```bash
 cd /Users/mac/cough-analysis-app
 
 # Adiciona repositório remoto
-git remote add origin https://github.com/SEU-USUARIO/cough-analysis-app.git
+git remote add origin https://github.com/MauroFerreira10/cough-analysis-app.git
 
 # Renomeia branch para main
 git branch -M main
@@ -36,10 +36,9 @@ git branch -M main
 git push -u origin main
 ```
 
-**Exemplo:**
-Se seu usuário do GitHub for `joaosilva`:
+**Exemplo real deste projeto:**
 ```bash
-git remote add origin https://github.com/joaosilva/cough-analysis-app.git
+git remote add origin https://github.com/MauroFerreira10/cough-analysis-app.git
 git branch -M main
 git push -u origin main
 ```
@@ -48,11 +47,11 @@ git push -u origin main
 
 1. Acesse: **https://colab.research.google.com/**
 2. Clique em **"GitHub"** (aba no topo)
-3. Digite: `SEU-USUARIO/cough-analysis-app`
+3. Digite: `MauroFerreira10/cough-analysis-app`
 4. Selecione: `Colab_Training.ipynb`
 5. **Ou** acesse diretamente:
    ```
-   https://colab.research.google.com/github/SEU-USUARIO/cough-analysis-app/blob/main/Colab_Training.ipynb
+   https://colab.research.google.com/github/MauroFerreira10/cough-analysis-app/blob/main/Colab_Training.ipynb
    ```
 
 ## 🎯 O Que Você Tem Pronto
@@ -104,7 +103,7 @@ No primeiro cell do notebook:
 
 ```python
 # Seu usuário do GitHub
-!git clone https://github.com/SEU-USUARIO/cough-analysis-app.git
+!git clone https://github.com/MauroFerreira10/cough-analysis-app.git
 %cd cough-analysis-app
 !pip install -q librosa tensorflow scikit-learn
 ```
@@ -157,12 +156,12 @@ Depois do push, você terá:
 
 **Repositório GitHub:**
 ```
-https://github.com/SEU-USUARIO/cough-analysis-app
+https://github.com/MauroFerreira10/cough-analysis-app
 ```
 
 **Notebook no Colab:**
 ```
-https://colab.research.google.com/github/SEU-USUARIO/cough-analysis-app/blob/main/Colab_Training.ipynb
+https://colab.research.google.com/github/MauroFerreira10/cough-analysis-app/blob/main/Colab_Training.ipynb
 ```
 
 **Compartilhe essas URLs** com qualquer pessoa!
