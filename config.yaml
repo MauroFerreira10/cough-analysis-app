@@ -1,0 +1,57 @@
+# Configuração do Pipeline de Análise de Tosse
+
+# Parâmetros de Áudio
+audio:
+  sample_rate: 16000  # Hz
+  duration: 5  # segundos
+  n_mfcc: 40
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+  fmin: 20
+  fmax: 8000
+
+# Parâmetros do Modelo
+model:
+  architecture: "mobilenet_v2"
+  input_shape: [128, 128, 1]  # Altura, Largura, Canais
+  num_classes: 3  # Normal, Bronquite, Pneumonia
+  dropout_rate: 0.3
+  learning_rate: 0.001
+
+# Parâmetros de Treinamento
+training:
+  batch_size: 32
+  epochs: 100
+  validation_split: 0.2
+  early_stopping_patience: 15
+  reduce_lr_patience: 7
+  reduce_lr_factor: 0.5
+  min_lr: 0.00001
+
+# Parâmetros de Data Augmentation
+augmentation:
+  time_stretch_rate: [0.8, 1.2]
+  pitch_shift_steps: [-2, 2]
+  noise_factor: 0.005
+  shift_max: 0.2
+
+# Classes
+classes:
+  - "normal"
+  - "bronquite"
+  - "pneumonia"
+
+# Caminhos
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  features: "data/features"
+  models: "data/models"
+  logs: "logs"
+
+# TFLite Conversion
+tflite:
+  quantization: "int8"  # Options: int8, float16, none
+  representative_dataset_size: 100
+

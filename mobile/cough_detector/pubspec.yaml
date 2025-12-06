@@ -1,0 +1,42 @@
+name: cough_detector
+description: Aplicação móvel para detecção de pneumonia e bronquite através de análise de tosse
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  
+  # Audio
+  record: ^5.0.0
+  audioplayers: ^5.2.0
+  path_provider: ^2.1.0
+  permission_handler: ^11.0.0
+  
+  # TensorFlow Lite
+  tflite_flutter: ^0.10.3
+  
+  # State Management
+  provider: ^6.0.5
+  
+  # Utils
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/

@@ -1,0 +1,44 @@
+# Core ML Libraries
+tensorflow>=2.12.0
+tensorflow-lite>=2.12.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+audioread>=3.0.0
+pydub>=0.25.1
+noisereduce>=2.0.0
+
+# Signal Processing
+scipy>=1.10.0
+numpy>=1.23.0
+
+# Data Handling
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Model Conversion
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.22.0
+notebook>=6.5.0
+
+# Quality Assurance
+pytest>=7.3.0
+black>=23.3.0
+flake8>=6.0.0
+
